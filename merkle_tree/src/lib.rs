@@ -28,7 +28,8 @@ pub mod macros;
 pub mod namespaced_merkle_tree;
 pub mod universal_merkle_tree;
 
-pub(crate) mod internal;
+/// This module contains internal utilities for the Merkle Tree.
+pub mod internal;
 
 pub mod prelude;
 pub use crate::errors::MerkleTreeError;
